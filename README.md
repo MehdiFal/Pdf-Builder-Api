@@ -42,11 +42,15 @@ Payload:
 }
 ```
 
+--------
+
 Steps: 
 - Clone it
 - Install Tomcat locally 
 - Deploy the api into tomcat (from eclipse or intelliJ) 
 - Then if you wanna deploy it to a remote server, enter the command: `mvn install` in the root directory of the project and get the `.war` file from the `/target` folder of the project.
 
+---------
+
 Note:
-Don't use the `\t` char as it's not supported on pdfbox e from the /target
+Don't use the `\t` char as it's not supported on pdfbox.
