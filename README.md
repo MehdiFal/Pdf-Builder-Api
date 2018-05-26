@@ -2,6 +2,7 @@
 
 Payload: 
 
+Http POST:
 ```
 {
 	"customer": {
