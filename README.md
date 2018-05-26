@@ -1,8 +1,16 @@
 # Pdf-Builder-Api
 
-Payload: 
 
-Http POST:
+
+Http Verb: `POST`
+
+Headers: 
+```
+Content-Type: application/json
+Accept: application/pdf
+```
+
+Payload Body: 
 ```
 {
 	"customer": {
